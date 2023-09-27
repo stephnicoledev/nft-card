@@ -30,7 +30,6 @@ body {
 }
 
 .qr-container {
-  border: 5px solid limegreen;
   background: var(--space);
   display: flex;
   flex-direction: column;
