@@ -56,10 +56,29 @@ body {
   font-size: var(--ff);
   font-weight: var(--fw-3);
   margin-bottom: 1rem;
+  line-height: 1.5;
 }
 
 .price {
   display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.eth {
+  display: flex;
+}
+
+.eth > img {
+  margin-right: 10px;
+}
+
+.time {
+  display: flex;
+}
+
+.time img {
+  margin-right: 10px;
 }
 
 .creator {
